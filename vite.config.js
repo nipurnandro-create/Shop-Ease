@@ -13,13 +13,7 @@ export default defineConfig({
   build: {
     // Optimize images during build
     assetsInlineLimit: 4096,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vendor': ['react', 'react-dom', 'react-router-dom'],
-        },
-      },
-    },
+    
     // Enable minification
     minify: 'terser',
     terserOptions: {
