@@ -113,6 +113,7 @@ function ProductDetails() {
             <img
               src={activeImage}
               alt={product.title}
+              loading="lazy"
               className="max-h-full max-w-full object-contain hover:scale-[1.03] transition-transform duration-300"
             />
           </div>
@@ -129,7 +130,7 @@ function ProductDetails() {
                       : 'border-gray-200 dark:border-slate-800 hover:border-gray-300 dark:hover:border-slate-700'
                   }`}
                 >
-                  <img src={img} alt="" className="w-full h-full object-contain" />
+                  <img src={img} alt="" loading="lazy" className="w-full h-full object-contain" />
                 </button>
               ))}
             </div>
