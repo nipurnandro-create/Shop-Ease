@@ -14,13 +14,6 @@ export default defineConfig({
     // Optimize images during build
     assetsInlineLimit: 4096,
     
-    // Enable minification
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-      },
-    },
   },
   // Image optimization settings
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.webp'],
