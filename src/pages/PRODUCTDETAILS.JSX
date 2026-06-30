@@ -8,7 +8,7 @@ import { useToast } from '../context/ToastContext';
 import { StarRating } from '../components/ProductCard';
 import ErrorMessage from '../components/ErrorMessage';
 
-export default function ProductDetails() {
+function ProductDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
@@ -291,3 +291,4 @@ export default function ProductDetails() {
     </main>
   );
 }
+export default ProductDetails;
