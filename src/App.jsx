@@ -13,7 +13,7 @@ import Products from './pages/Products';
 import Plicy from './pages/Plicy';
 import TermsOfService from './pages/TermsOfService';
 import ContactSupport from './pages/ContactSupport';
-import ProductDetails from './pages/ProductDetails';
+import ProductDetails from './pages/ProductDetails.jsx';
 import Cart from './pages/Cart';
 import Wishlist from './pages/Wishlist';
 
