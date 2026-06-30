@@ -16,7 +16,6 @@ import ContactSupport from './pages/ContactSupport';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Wishlist from './pages/Wishlist';
-import NotFound from './pages/NotFound';
 
 function App() {
   useEffect(() => {
